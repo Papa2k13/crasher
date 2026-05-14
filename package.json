@@ -1,0 +1,32 @@
+{
+  "name": "mr-legend-bot",
+  "version": "1.0.0",
+  "description": "Telegram + WhatsApp bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "@hapi/boom": "^10.0.1",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^1.6.8",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "lodash": "^4.17.21",
+    "lowdb": "^2.1.0",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^6.13.5",
+    "pino": "^7.11.0",
+    "telegraf": "^4.16.3",
+    "yargs": "^17.7.2",
+    "qrcode-terminal": "^0.12.0",
+    "node-fetch": "^2.6.9"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
